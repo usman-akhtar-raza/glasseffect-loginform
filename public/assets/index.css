@@ -25,18 +25,53 @@ body {
     -10px -10px 16px 16px rgba(0, 0, 0, 0.3);
   transition: all 0.6s;
 }
+
 .heading {
-  text-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
-    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
   color: transparent;
 }
 .form:hover .heading {
   color: lightcoral;
+  text-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
+    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
   transition: all 0.6s;
 }
 .input {
   font-size: 24px;
+  color: transparent;
+}
+.form:hover .input {
+  color: lightcoral;
+  text-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
+    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
+  transition: all 0.6s;
 }
 input {
+  background-color: transparent;
+  border: transparent;
   width: 400px;
+  border-radius: 10px;
+}
+.form:hover input {
+  color: lightcoral;
+  border: 1px solid lightcoral;
+  text-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
+    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
+  transition: all 0.6s;
+}
+.btn {
+  border-radius: 16px;
+  color: transparent;
+  width: 200px;
+  background: transparent;
+}
+.form:hover .btn {
+  border-radius: 16px;
+  color: white;
+  width: 200px;
+  font-size: 24px;
+  background: lightcoral;
+  box-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
+    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
+}
+.form {
 }
