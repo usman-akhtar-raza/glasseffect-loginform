@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/public/assets/images/loginformjpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.form {
+  width: 500px;
+  height: 600px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  box-shadow: 10px 10px 46px 46px rgba(0, 0, 0, 0.3),
+    -10px -10px 46px 46px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.form:hover {
+  backdrop-filter: blur(0px);
+  cursor: pointer;
+  box-shadow: 10px 10px 16px 16px rgba(0, 0, 0, 0.3),
+    -10px -10px 16px 16px rgba(0, 0, 0, 0.3);
+  transition: all 0.6s;
+}
+.heading {
+  text-shadow: 0px 0px 10px lightcoral, 0px 0px 20px lightcoral,
+    0px 0px 30px lightcoral, 0px 0px 40px lightcoral;
+  color: transparent;
+}
+.form:hover .heading {
+  color: lightcoral;
+  transition: all 0.6s;
+}
+.input {
+  font-size: 24px;
+}
+input {
+  width: 400px;
+}
